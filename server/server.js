@@ -5,7 +5,6 @@ const ioUtils = require('./utils/io');
 
 const io = require('socket.io')(server, {
 	path: '/socket',
-	origins: ['https://redparty-e367t.ondigitalocean.app'],
 	serveClient: false,
 });
 
